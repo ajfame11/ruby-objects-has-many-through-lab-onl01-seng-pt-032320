@@ -25,7 +25,7 @@ class Doctor
   def patients
     Appointment.all.select do |appointment|
       if appointment.doctor == self
-        return appointment.patient.name
+        puts appointment.patient.name
       end
     end
   end
