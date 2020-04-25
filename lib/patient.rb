@@ -19,7 +19,7 @@ class Patient
   def appointments
     Appointment.all.collect do |appointment|
       if appointment.patient == self
-        appointment.patient
+        appointment
       end
     end
   end
