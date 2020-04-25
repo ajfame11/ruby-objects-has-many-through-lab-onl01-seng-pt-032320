@@ -27,5 +27,6 @@ class Doctor
       if appointment.doctor == self
         appointment.patient
       end
+    end
   end
 end
