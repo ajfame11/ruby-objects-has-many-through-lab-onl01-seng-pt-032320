@@ -23,6 +23,7 @@ class Doctor
   end
   
   def patients
-    
+    Appointment.select do |appointment|
+      if 
   end
 end
